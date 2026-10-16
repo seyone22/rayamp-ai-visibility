@@ -87,6 +87,7 @@ ol, ul { padding: 0; list-style: none; }
 .cols-heat { display: grid; grid-template-columns: 1.55fr 1fr; gap: 64px; align-items: start; }
 .cols-trend { display: grid; grid-template-columns: 1150px 1fr; gap: 54px; align-items: start; }
 .city-grid { display: grid; grid-template-columns: 1fr 580px; gap: 64px; align-items: start; }
+.panel, .actions { min-width: 0; }
 .side-stats { display: flex; flex-direction: column; gap: 24px; padding-top: 4px; }
 .stat { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 2px solid var(--line); }
 .stat-cap { font-size: 21px; line-height: 1.35; color: var(--slate); max-width: 560px; }
@@ -95,7 +96,9 @@ ol, ul { padding: 0; list-style: none; }
 /* ── Horizontal bars ───────────────────────────────────────────────────── */
 .hbars { display: flex; flex-direction: column; gap: 6px; }
 .hb-row { display: grid; grid-template-columns: 46px 330px 1fr 120px; align-items: center; gap: 14px; height: 48px; padding: 0 10px; border-radius: 4px; }
-.hbars.no-rank .hb-row { grid-template-columns: 420px 1fr 80px; }
+.hbars.no-rank .hb-row { grid-template-columns: 280px 1fr 220px; }
+.hbars.no-rank .hb-name { max-width: 280px; }
+.hbars.no-rank .hb-val { min-width: 0; text-align: right; white-space: nowrap; }
 .hb-rank { font-family: var(--f-mono); font-size: 20px; color: var(--slate); text-align: right; }
 .hb-name { font-size: 23px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .hb-track { height: 26px; position: relative; background: rgba(0,0,0,.04); border-radius: 3px; overflow: hidden; }
@@ -334,9 +337,14 @@ ol, ul { padding: 0; list-style: none; }
 /* ── Accent divider ────────────────────────────────────────────────────── */
 .accent .display { font-family: 'Audiowide', var(--f-sans);  color: var(--white); max-width: 1560px; }
 .accent-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 54px; margin-top: 14px; }
+.accent-stats.cols-4 { grid-template-columns: repeat(4, 1fr); gap: 28px; }
 .accent-stats > div { display: flex; flex-direction: column; gap: 10px; border-top: 2px solid rgba(255,255,255,.4); padding-top: 20px; }
+.slide.light .accent-stats > div, .slide.white .accent-stats > div { border-top-color: var(--line); }
 .huge { font-size: 130px; line-height: .9; font-weight: 900; letter-spacing: -4px; color: var(--white); font-variant-numeric: tabular-nums; }
+.huge.pulp, .slide.light .huge.pulp, .slide.white .huge.pulp { color: var(--pulp) !important; }
+.slide.light .huge, .slide.white .huge { color: var(--ink); }
 .acap { font-size: 24px; line-height: 1.35; color: #FFF1EE; max-width: 460px; }
+.slide.light .acap, .slide.white .acap { color: var(--slate); }
 
 /* ── Heatmap ───────────────────────────────────────────────────────────── */
 .heat { display: flex; flex-direction: column; gap: 5px; }
@@ -692,14 +700,26 @@ body.idle { cursor: none; }
   <div class="stage" id="stage">
     <section class="slide dark" id="tech-01-cover">
   <div class="tech-badge">TIER 2 INTERNAL TECHNICAL DOSSIER · CONFIDENTIAL</div>
-  <p class="eyebrow on-dark">AEO / GEO / SEO ECONOMETRIC SPECIFICATION &amp; EMPIRICAL RESEARCH FINDINGS</p>
-  <h1 class="display on-dark">Generative Engine Optimization (GEO) Data Science Specification</h1>
-  <p class="lede on-dark">Stochastic modeling, non-parametric presence estimators, multivariate logistic regression, web grounding telemetry, and RAG attribution network modeling for <b>Rayamp Solar Pty Ltd</b> across 280 empirical answer cells.</p>
-  <div class="accent-stats">
-    <div><span class="huge on-dark">N = 280</span><span class="acap on-dark">Empirical Query Cells (8 Victorian Corridors × 7 Intents × 5 Engines)</span></div>
-    <div><span class="huge on-dark">2 Fetches</span><span class="acap on-dark">Grounding Crawls of rayampsolar.com.au by Gemini / Vertex AI</span></div>
-    <div><span class="huge on-dark">OR = 4.89</span><span class="acap on-dark">Logit Odds Ratio for Verified Solar Directory Centrality (p &lt; 0.0001)</span></div>
-    <div><span class="huge on-dark">κ = 0.942</span><span class="acap on-dark">Cohen's Kappa Inter-Engine Consensus Validation (1,400 entity checks)</span></div>
+  <p class="eyebrow on-dark" style="margin-top:4px;">AEO / GEO / SEO ECONOMETRIC SPECIFICATION &amp; EMPIRICAL RESEARCH FINDINGS</p>
+  <h1 class="display on-dark" style="font-size:54px; line-height:1.1; margin-top:8px; max-width:1480px;">Generative Engine Optimization (GEO) Data Science Specification</h1>
+  <p class="lede on-dark" style="font-size:21px; line-height:1.45; color:#94A3B8; margin-top:10px; max-width:1400px;">Stochastic modeling, non-parametric presence estimators, multivariate logistic regression, web grounding telemetry, and RAG attribution network modeling for <b>Rayamp Solar Pty Ltd</b> across 280 empirical answer cells.</p>
+  <div class="tech-cover-stats" style="display:grid; grid-template-columns:repeat(4, 1fr); gap:28px; margin-top:28px;">
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">N = 280</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Empirical Query Cells (8 Victorian Corridors × 7 Intents × 5 Engines)</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">2 Fetches</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Grounding Crawls of rayampsolar.com.au by Gemini / Vertex AI</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">OR = 4.89</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Logit Odds Ratio for Verified Solar Directory Centrality (p &lt; 0.0001)</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">κ = 0.942</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Cohen's Kappa Inter-Engine Consensus Validation (1,400 checks)</p>
+    </div>
   </div>
   <footer class="foot on-dark"><span class="foot-logo"><svg class="logo" aria-label="Rayamp Solar" role="img" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 955.71 212.56">
   <defs>
@@ -991,9 +1011,17 @@ body.idle { cursor: none; }
     <div class="panel">
       <h3 class="h3">Concentration Ratio (CR3 = 82.1%)</h3>
       <p class="note">The top 3 authority domains account for <b>82.1% of all AI citations</b> in Victorian residential solar. Models do not conduct open web exploration; they execute heuristic extraction over this closed triadic authority graph.</p>
-      <div class="accent-stats" style="margin-top:20px;">
-        <div><span class="huge pulp">82.1%</span><span class="acap">Triadic Gatekeeper Concentration (SolarQuotes + SolarVic + CEC)</span></div>
-        <div><span class="huge pulp">CR4 = 91.4%</span><span class="acap">Including ProductReview.com.au</span></div>
+      <div class="tech-stat-grid" style="margin-top:24px; display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+        <div style="border-top:3px solid var(--pulp); padding-top:16px;">
+          <div style="font-size:52px; font-weight:800; color:var(--pulp); font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">82.1%</div>
+          <div style="font-size:16px; font-weight:700; color:var(--ink); margin-top:8px;">CR3 Gatekeeper Moat</div>
+          <p style="font-size:14px; color:var(--slate); margin-top:4px; line-height:1.4;">SolarQuotes + Solar Victoria + Clean Energy Council</p>
+        </div>
+        <div style="border-top:3px solid var(--solar-amber); padding-top:16px;">
+          <div style="font-size:52px; font-weight:800; color:#D97706; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">91.4%</div>
+          <div style="font-size:16px; font-weight:700; color:var(--ink); margin-top:8px;">CR4 Market Coverage</div>
+          <p style="font-size:14px; color:var(--slate); margin-top:4px; line-height:1.4;">Including ProductReview.com.au</p>
+        </div>
       </div>
     </div>
   </div>

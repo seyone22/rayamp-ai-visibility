@@ -74,14 +74,26 @@ function slide(id, theme, html, { dark = false } = {}) {
 // ─── 01. TECHNICAL COVER ────────────────────────────────────────────────────
 slide('tech-01-cover', 'dark', `
   <div class="tech-badge">TIER 2 INTERNAL TECHNICAL DOSSIER · CONFIDENTIAL</div>
-  <p class="eyebrow on-dark">AEO / GEO / SEO ECONOMETRIC SPECIFICATION &amp; EMPIRICAL RESEARCH FINDINGS</p>
-  <h1 class="display on-dark">Generative Engine Optimization (GEO) Data Science Specification</h1>
-  <p class="lede on-dark">Stochastic modeling, non-parametric presence estimators, multivariate logistic regression, web grounding telemetry, and RAG attribution network modeling for <b>Rayamp Solar Pty Ltd</b> across ${ansFull.length} empirical answer cells.</p>
-  <div class="accent-stats">
-    <div><span class="huge on-dark">N = ${ansFull.length}</span><span class="acap on-dark">Empirical Query Cells (8 Victorian Corridors × 7 Intents × 5 Engines)</span></div>
-    <div><span class="huge on-dark">${rayampCrawlEvents.length} Fetches</span><span class="acap on-dark">Grounding Crawls of rayampsolar.com.au by Gemini / Vertex AI</span></div>
-    <div><span class="huge on-dark">OR = 4.89</span><span class="acap on-dark">Logit Odds Ratio for Verified Solar Directory Centrality (p &lt; 0.0001)</span></div>
-    <div><span class="huge on-dark">κ = 0.942</span><span class="acap on-dark">Cohen's Kappa Inter-Engine Consensus Validation (1,400 entity checks)</span></div>
+  <p class="eyebrow on-dark" style="margin-top:4px;">AEO / GEO / SEO ECONOMETRIC SPECIFICATION &amp; EMPIRICAL RESEARCH FINDINGS</p>
+  <h1 class="display on-dark" style="font-size:54px; line-height:1.1; margin-top:8px; max-width:1480px;">Generative Engine Optimization (GEO) Data Science Specification</h1>
+  <p class="lede on-dark" style="font-size:21px; line-height:1.45; color:#94A3B8; margin-top:10px; max-width:1400px;">Stochastic modeling, non-parametric presence estimators, multivariate logistic regression, web grounding telemetry, and RAG attribution network modeling for <b>Rayamp Solar Pty Ltd</b> across ${ansFull.length} empirical answer cells.</p>
+  <div class="tech-cover-stats" style="display:grid; grid-template-columns:repeat(4, 1fr); gap:28px; margin-top:28px;">
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">N = ${ansFull.length}</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Empirical Query Cells (8 Victorian Corridors × 7 Intents × 5 Engines)</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">${rayampCrawlEvents.length} Fetches</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Grounding Crawls of rayampsolar.com.au by Gemini / Vertex AI</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">OR = 4.89</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Logit Odds Ratio for Verified Solar Directory Centrality (p &lt; 0.0001)</p>
+    </div>
+    <div style="border-top:2px solid var(--dark-border); padding-top:16px;">
+      <div style="font-size:52px; font-weight:800; color:#FFFFFF; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">κ = 0.942</div>
+      <p style="font-size:15px; color:#94A3B8; margin-top:10px; line-height:1.35;">Cohen's Kappa Inter-Engine Consensus Validation (1,400 checks)</p>
+    </div>
   </div>
   <footer class="foot on-dark"><span class="foot-logo">${LOGO_SRC}</span><span class="foot-meta">Rayamp Solar GEO Intelligence Unit · Version 3.2 Production Protocol · October 2026</span></footer>
 `, { dark: true });
@@ -252,9 +264,17 @@ slide('tech-05-sources', 'light', `
     <div class="panel">
       <h3 class="h3">Concentration Ratio (CR3 = 82.1%)</h3>
       <p class="note">The top 3 authority domains account for <b>82.1% of all AI citations</b> in Victorian residential solar. Models do not conduct open web exploration; they execute heuristic extraction over this closed triadic authority graph.</p>
-      <div class="accent-stats" style="margin-top:20px;">
-        <div><span class="huge pulp">82.1%</span><span class="acap">Triadic Gatekeeper Concentration (SolarQuotes + SolarVic + CEC)</span></div>
-        <div><span class="huge pulp">CR4 = 91.4%</span><span class="acap">Including ProductReview.com.au</span></div>
+      <div class="tech-stat-grid" style="margin-top:24px; display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+        <div style="border-top:3px solid var(--pulp); padding-top:16px;">
+          <div style="font-size:52px; font-weight:800; color:var(--pulp); font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">82.1%</div>
+          <div style="font-size:16px; font-weight:700; color:var(--ink); margin-top:8px;">CR3 Gatekeeper Moat</div>
+          <p style="font-size:14px; color:var(--slate); margin-top:4px; line-height:1.4;">SolarQuotes + Solar Victoria + Clean Energy Council</p>
+        </div>
+        <div style="border-top:3px solid var(--solar-amber); padding-top:16px;">
+          <div style="font-size:52px; font-weight:800; color:#D97706; font-family:var(--f-mono); line-height:1; letter-spacing:-1px;">91.4%</div>
+          <div style="font-size:16px; font-weight:700; color:var(--ink); margin-top:8px;">CR4 Market Coverage</div>
+          <p style="font-size:14px; color:var(--slate); margin-top:4px; line-height:1.4;">Including ProductReview.com.au</p>
+        </div>
       </div>
     </div>
   </div>

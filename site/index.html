@@ -86,6 +86,7 @@ ol, ul { padding: 0; list-style: none; }
 .cols-heat { display: grid; grid-template-columns: 1.55fr 1fr; gap: 64px; align-items: start; }
 .cols-trend { display: grid; grid-template-columns: 1150px 1fr; gap: 54px; align-items: start; }
 .city-grid { display: grid; grid-template-columns: 1fr 580px; gap: 64px; align-items: start; }
+.panel, .actions { min-width: 0; }
 .side-stats { display: flex; flex-direction: column; gap: 24px; padding-top: 4px; }
 .stat { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 2px solid var(--line); }
 .stat-cap { font-size: 21px; line-height: 1.35; color: var(--slate); max-width: 560px; }
@@ -94,7 +95,9 @@ ol, ul { padding: 0; list-style: none; }
 /* ── Horizontal bars ───────────────────────────────────────────────────── */
 .hbars { display: flex; flex-direction: column; gap: 6px; }
 .hb-row { display: grid; grid-template-columns: 46px 330px 1fr 120px; align-items: center; gap: 14px; height: 48px; padding: 0 10px; border-radius: 4px; }
-.hbars.no-rank .hb-row { grid-template-columns: 420px 1fr 80px; }
+.hbars.no-rank .hb-row { grid-template-columns: 280px 1fr 220px; }
+.hbars.no-rank .hb-name { max-width: 280px; }
+.hbars.no-rank .hb-val { min-width: 0; text-align: right; white-space: nowrap; }
 .hb-rank { font-family: var(--f-mono); font-size: 20px; color: var(--slate); text-align: right; }
 .hb-name { font-size: 23px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .hb-track { height: 26px; position: relative; background: rgba(0,0,0,.04); border-radius: 3px; overflow: hidden; }
@@ -333,9 +336,14 @@ ol, ul { padding: 0; list-style: none; }
 /* ── Accent divider ────────────────────────────────────────────────────── */
 .accent .display { font-family: 'Audiowide', var(--f-sans);  color: var(--white); max-width: 1560px; }
 .accent-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 54px; margin-top: 14px; }
+.accent-stats.cols-4 { grid-template-columns: repeat(4, 1fr); gap: 28px; }
 .accent-stats > div { display: flex; flex-direction: column; gap: 10px; border-top: 2px solid rgba(255,255,255,.4); padding-top: 20px; }
+.slide.light .accent-stats > div, .slide.white .accent-stats > div { border-top-color: var(--line); }
 .huge { font-size: 130px; line-height: .9; font-weight: 900; letter-spacing: -4px; color: var(--white); font-variant-numeric: tabular-nums; }
+.huge.pulp, .slide.light .huge.pulp, .slide.white .huge.pulp { color: var(--pulp) !important; }
+.slide.light .huge, .slide.white .huge { color: var(--ink); }
 .acap { font-size: 24px; line-height: 1.35; color: #FFF1EE; max-width: 460px; }
+.slide.light .acap, .slide.white .acap { color: var(--slate); }
 
 /* ── Heatmap ───────────────────────────────────────────────────────────── */
 .heat { display: flex; flex-direction: column; gap: 5px; }
