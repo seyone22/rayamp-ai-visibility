@@ -666,7 +666,7 @@ slide('ws-entity', 'white', `
 {
   const labels = ['Oct 26', 'Jan 27', 'Apr 27', 'Oct 27'];
   const xs = [0, 3, 6, 12];
-  const w = 1000, h = 560, pl = 90, pr = 230, pt = 40, pb = 80;
+  const w = 1000, h = 560, pl = 80, pr = 310, pt = 40, pb = 80;
   const x = m => pl + m / 12 * (w - pl - pr), y = v => pt + (h - pt - pb) * (1 - v / 100);
   const target = [0, 15, 30, 45];
 
@@ -674,11 +674,11 @@ slide('ws-entity', 'white', `
     ${[0, 25, 50, 75, 100].map(t => `<line x1="${pl}" x2="${w - pr}" y1="${y(t)}" y2="${y(t)}" class="gl"/><text x="${pl - 16}" y="${y(t) + 8}" class="ax" text-anchor="end">${t}%</text>`).join('')}
     ${xs.map((m, i) => `<text x="${x(m)}" y="${h - pb + 42}" class="ax" text-anchor="middle">${labels[i]}</text>`).join('')}
     <line x1="${x(0)}" x2="${x(12)}" y1="${y(34)}" y2="${y(34)}" stroke="#0F172A" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round" class="fadein"/>
-    <text x="${x(12) + 22}" y="${y(34) + 38}" class="el">Green Line Solar today <tspan class="elv">34%</tspan></text>
+    <text x="${x(12) + 16}" y="${y(34) + 34}" class="el">Green Line Solar <tspan class="elv">34%</tspan></text>
     <path d="${target.map((v, i) => `${i ? 'L' : 'M'}${x(xs[i])},${y(v)}`).join('')}" pathLength="1" class="draw" fill="none" stroke="#FF5A39" stroke-width="6" stroke-dasharray="1" style="--d:300ms"/>
     <path d="${target.map((v, i) => `${i ? 'L' : 'M'}${x(xs[i])},${y(v)}`).join('')}" fill="none" stroke="#F8FAFC" stroke-width="7" stroke-dasharray="14 12" class="fadein" style="--d:1500ms"/>
     ${target.map((v, i) => `<circle cx="${x(xs[i])}" cy="${y(v)}" r="${i ? 10 : 13}" fill="${i ? '#F8FAFC' : '#FF5A39'}" stroke="#FF5A39" stroke-width="5" class="pop" style="--d:${400 + i * 350}ms"/><text x="${i ? x(xs[i]) : x(xs[i]) + 26}" y="${i ? y(v) - 28 : y(v) + 44}" text-anchor="${i ? 'middle' : 'start'}" class="callsmall pulp">${i === 3 ? '' : v + '%'}${i ? '' : ' measured today'}</text>`).join('')}
-    <text x="${x(12) + 22}" y="${y(45) - 4}" class="el pulp-t">Rayamp target <tspan class="elv">45%</tspan></text>
+    <text x="${x(12) + 16}" y="${y(45) - 8}" class="el pulp-t">Rayamp target <tspan class="elv">45%</tspan></text>
   </svg>`;
 
   const TG = [
