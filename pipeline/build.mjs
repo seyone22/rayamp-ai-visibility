@@ -212,7 +212,7 @@ function platStrip(cityKey) {
   });
 
   slide('shift', 'light', `
-    <header class="hd"><p class="eyebrow">The Structural Shift</p><h2 class="h1">Homeowners no longer click 10 Google links. They ask AI assistants for an authoritative solar installer shortlist.</h2></header>
+    <header class="hd"><p class="eyebrow">The Structural Shift</p><h2 class="h1">More Victorian homeowners are asking AI which solar installer to choose</h2></header>
     <div class="cols-2 why">
       <div class="panel">
         <div class="kpi-inline"><span class="big pulp">+245%</span><span class="kpi-cap">estimated monthly AI-assistant conversational searches for <b>“best solar and battery installer Victoria”</b>, Oct 2025 to Sep 2026</span></div>
@@ -268,7 +268,7 @@ slide('method', 'white', `
 {
   const topRows = nat.rankings?.slice(0, 8) || [];
   slide('national', 'light', `
-    <header class="hd"><p class="eyebrow">Statewide Standings</p><h2 class="h1">RACV Solar and Jet Solar dominate AI recommendations across Victoria</h2></header>
+    <header class="hd"><p class="eyebrow">Statewide Standings</p><h2 class="h1">Across all 8 Victorian corridors, Rayamp Solar is unranked in unprompted recommendations</h2></header>
     <div class="cols-60">
       <div class="panel">
         <p class="chart-title">Answers naming each installer, out of ${TOTAL_ANSWERS} <span class="muted">· Across all 8 corridors & 7 buying intents</span></p>
@@ -402,7 +402,7 @@ slide('method', 'white', `
 
 // ─── 10. Regional Victoria (Mornington, Ballarat, Bendigo, Gippsland) ────────
 slide('regional-summary', 'white', `
-  <header class="hd"><p class="eyebrow">04 · Regional Victoria</p><h2 class="h1">The Regional Blind Spot: $18M in battery subsidies flowing through zero Rayamp mentions</h2></header>
+  <header class="hd"><p class="eyebrow">04 · Regional Victoria</p><h2 class="h1">Rayamp trails the leading installer in all 8 Victorian corridors</h2></header>
   <div class="cols-4 regional-grid">
     <div class="reg-card">
       <h4>Mornington Peninsula</h4>
@@ -542,9 +542,9 @@ const WS = [
 ];
 
 slide('plan', 'white', `
-  <header class="hd"><p class="eyebrow">The 5 Strategic Workstreams</p><h2 class="h1">Five synchronized workstreams addressing each empirical gap</h2></header>
+  <header class="hd"><p class="eyebrow">The Plan</p><h2 class="h1">Five workstreams, each answering a gap in the data</h2></header>
   <div class="ws">
-    <div class="ws-head"><span></span><span>Workstream</span><span>What the Empirical Data Shows</span><span>What We Will Execute</span></div>
+    <div class="ws-head"><span></span><span>Workstream</span><span>What the data shows</span><span>What we will do</span></div>
     ${WS.map(([n, t, e, a], i) => `<div class="ws-row rise" style="--d:${120 + i * 110}ms"><span class="ws-n">${n}</span><b class="ws-t">${t}</b><span class="ws-e">${esc(e)}</span><span class="ws-a">${esc(a)}</span></div>`).join('')}
   </div>`);
 
@@ -599,7 +599,7 @@ slide('plan', 'white', `
 // ─── 19. Workstream 03: Intent & Solution Pages ─────────────────────────────
 {
   slide('ws-pages', 'light', `
-    <header class="hd"><p class="eyebrow">Workstream 03</p><h2 class="h1">Dedicated solution architecture for high-value battery retrofits</h2></header>
+    <header class="hd"><p class="eyebrow">Workstream 03</p><h2 class="h1">Make corridor battery pages AI can quote</h2></header>
     <div class="cols-2">
       <div class="panel">
         <h3 class="h3">Current Website Gaps</h3>
@@ -610,11 +610,12 @@ slide('plan', 'white', `
         </ul>
       </div>
       <div class="actions">
-        <h3 class="h3">Target Production Architecture</h3>
+        <h3 class="h3">What we will do</h3>
         <ul class="ticks">
-          <li>Deploy dedicated high-ACV battery upgrade pages with interactive Victorian payback calculators.</li>
-          <li>Structure client case studies with Schema.org <code>CaseStudy</code> and <code>SolarEnergySystem</code> microdata.</li>
-          <li>Embed direct-answer Q&A modules addressing Solar Victoria rebate eligibility criteria.</li>
+          <li>Update Ringwood and Melbourne East pages to name distribution networks (CitiPower, AusNet, Powercor), state loan schemes, and verified payback figures in plain text AI can quote.</li>
+          <li>Build dedicated battery retrofit pages for Geelong, Mornington Peninsula, and Ballarat.</li>
+          <li>Publish verified kWh yield data, battery round-trip efficiencies, and payback calculations that LLM crawlers can extract.</li>
+          <li>Add LocalBusiness and Electrician schema with consistent NAP (name, address, phone) and CEC credentials.</li>
         </ul>
       </div>
     </div>`);
@@ -622,21 +623,22 @@ slide('plan', 'white', `
 
 // ─── 20. Workstream 04: Schema.org Knowledge Graph ──────────────────────────
 slide('ws-entity', 'white', `
-  <header class="hd"><p class="eyebrow">Workstream 04</p><h2 class="h1">Knowledge Graph alignment: embedding Rayamp's licensed credentials</h2></header>
+  <header class="hd"><p class="eyebrow">Workstream 04</p><h2 class="h1">AI gets some facts about Rayamp Solar wrong</h2></header>
   <div class="quotes">
-    <figure class="quote rise" style="--d:100ms"><p class="q-src">Gemini 3.8 Flash · Search Grounding</p><blockquote>“<b>Rayamp Solar</b> provides residential solar and battery installations in Victoria with in-house licensed electricians…”</blockquote><figcaption>Accurate knowledge retrieval, but lacks structured links to Solar Victoria or battery manufacturer warranties.</figcaption></figure>
-    <figure class="quote rise" style="--d:240ms"><p class="q-src">ChatGPT Search · Melbourne</p><blockquote>“Top Melbourne solar installers include <b>RACV Solar, Jet Solar, and Total Solar Solutions</b>, known for comprehensive battery warranties.”</blockquote><figcaption>Direct consensus from directory scrapers. Proves that without SolarQuotes listings, ChatGPT defaults to legacy brands.</figcaption></figure>
+    <figure class="quote rise" style="--d:100ms"><p class="q-src">Perplexity · Ringwood</p><blockquote>“Rayamp Solar is a local installer, but top recommended providers for Victoria battery rebates are <b>Solar Market brokerages…</b>”</blockquote><figcaption>Defaults to lead aggregators because Rayamp's electrical contractor license is absent from schema.</figcaption></figure>
+    <figure class="quote rise" style="--d:240ms"><p class="q-src">ChatGPT Search · Melbourne East</p><blockquote>“Recommended battery installers in Ringwood include <b>RACV Solar and Jet Solar</b>, who are verified Clean Energy Council Approved Retailers…”</blockquote><figcaption>ChatGPT requires third-party directory proof before citing premium battery specialists.</figcaption></figure>
+    <figure class="quote rise" style="--d:380ms"><p class="q-src">Claude 3.7 · Victoria Statewide</p><blockquote>“Most Victorian residential installers rely on <b>subcontracted installation teams…</b>”</blockquote><figcaption>Rayamp uses in-house licensed A-grade electricians, but AI models cannot verify the claim without structured license triples.</figcaption></figure>
   </div>
   <div class="actions wide">
     <h3 class="h3">What we will do</h3>
     <ul class="ticks cols">
-      <li>Deploy JSON-LD <code>LocalBusiness</code> schema embedding Victorian Electrical Contractor License number.</li>
-      <li>Link entity graph directly to official Clean Energy Council approved retailer registry.</li>
-      <li>Establish <code>sameAs</code> knowledge graph links to ProductReview, SolarQuotes, and LinkedIn.</li>
-      <li>Standardize service definitions so AI models classify Rayamp as a premium battery storage specialist.</li>
+      <li>Publish one source of truth: registered business name, REC license number, in-house electrician roster, and verified warranty terms.</li>
+      <li>Add Organization and Electrician schema with sameAs links to Energy Safe Victoria, Clean Energy Council, and Google Business Profile.</li>
+      <li>Standardize battery hardware specifications (Tesla Powerwall 3, Sigenergy) across every page so models index Rayamp as a certified installer.</li>
+      <li>Check the same answers each month and correct anything AI still gets wrong.</li>
     </ul>
   </div>
-  ${src('Empirical quotes recorded from live evaluations across Google AI Mode, Gemini 3.8, and ChatGPT 4o, October 2026.')}`);
+  ${src('Empirical quotes recorded from live evaluations across Google AI Mode, Gemini 3.8, Claude 3.7, and ChatGPT 4o, October 2026.')}`);
 
 // ─── 21. Roadmap (Gantt) ────────────────────────────────────────────────────
 {
@@ -651,11 +653,11 @@ slide('ws-entity', 'white', `
   const gantt = `<div class="gantt">
     <div class="g-head" style="grid-template-columns:${lab}px repeat(12, 1fr)"><span></span>${Array.from({ length: 12 }, (_, i) => `<span>W${i + 1}</span>`).join('')}</div>
     ${lanes.map(([name, bars], li) => `<div class="g-lane"><span class="g-name">${name}</span><div class="g-track">${bars.map(([a, b, t, kind], bi) => `<div class="g-bar ${kind === 'light' ? 'milestone' : ''} grow-x" style="left:${(a - 1) / 12 * 100}%;width:${(b - a + 1) / 12 * 100}%;--d:${200 + (li * 2 + bi) * 90}ms"><span>${esc(t)}</span></div>`).join('')}</div></div>`).join('')}
-    <div class="g-phases"><span style="width:33.33%">Month 1: Foundation & Directories</span><span style="width:33.33%">Month 2: Review Scale & Solution Pages</span><span style="width:33.34%">Month 3: Regional Expansion & Domination</span></div>
+    <div class="g-phases"><span style="width:33.33%">Month 1: fix foundations &amp; directories</span><span style="width:33.33%">Month 2: build corridor pages &amp; reviews</span><span style="width:33.34%">Month 3: scale to every corridor</span></div>
   </div>`;
 
   slide('roadmap', 'light', `
-    <header class="hd"><p class="eyebrow">First 90 Days Execution</p><h2 class="h1">The 90-day Generative Engine Optimization (GEO) rollout plan</h2></header>
+    <header class="hd"><p class="eyebrow">First 90 Days</p><h2 class="h1">The first 90 days, week by week</h2></header>
     <div class="panel">${gantt}</div>
     <p class="note wide">Melbourne East leads in Month 1 with review acceleration and directory verification. Regional Victorian hubs follow in Months 2 and 3.</p>`);
 }
@@ -704,24 +706,27 @@ slide('ws-entity', 'white', `
     </div>`);
 }
 
-// ─── 23. Retainer Governance ────────────────────────────────────────────────
-slide('governance', 'white', `
-  <header class="hd"><p class="eyebrow">Engagement Governance</p><h2 class="h1">Continuous empirical monitoring and monthly algorithmic re-audits</h2></header>
-  <div class="cols-3 gov-cards">
-    <div class="gov-card">
-      <span class="big pulp">Monthly</span>
-      <h3 class="h3">Automated Resampling</h3>
-      <p class="stat-cap">Execution of the exact 280-prompt evaluation panel across all 5 AI engines with regression testing to measure visibility gains.</p>
+// ─── 23. Appendix & Methodology ─────────────────────────────────────────────
+slide('appendix', 'white', `
+  <header class="hd"><p class="eyebrow">Appendix</p><h2 class="h1">Method and definitions</h2></header>
+  <div class="cols-2 appx">
+    <div>
+      <h3 class="h3">How answers were collected</h3>
+      <ul class="plain">
+        <li>7 commercial solar &amp; battery buying questions × 8 Victorian geographic corridors, evaluated in October 2026 across 5 verified AI answer engines (ChatGPT Search, Perplexity, Gemini 3.8 Flash, Google AI Mode, Claude 3.7 Sonnet).</li>
+        <li>Google AI Mode and Gemini evaluated from within Victorian IP context; Claude and ChatGPT evaluated with Victorian state rebate context.</li>
+        <li>Each question was queried across the multi-platform evaluation matrix to establish empirical market standings.</li>
+        <li>Google results: matching commercial searches in each corridor recording Google Map Packs and organic top 20.</li>
+      </ul>
     </div>
-    <div class="gov-card">
-      <span class="big pulp">Bi-Weekly</span>
-      <h3 class="h3">Competitor Movement</h3>
-      <p class="stat-cap">Live tracking of RACV Solar and Jet Solar citation changes, directory movements, and review velocity shifts across Victoria.</p>
-    </div>
-    <div class="gov-card">
-      <span class="big pulp">100%</span>
-      <h3 class="h3">Verifiable Grounding</h3>
-      <p class="stat-cap">Every recommendation backed by empirical grounding logs, crawl latency telemetry, and verifiable citation source records.</p>
+    <div>
+      <h3 class="h3">How answers were scored</h3>
+      <ul class="plain">
+        <li>Every solar and battery installer named in an answer was extracted in order of appearance.</li>
+        <li>Aggregators, software tools, and lead brokerages (e.g., Solar Market, Energy Matters) were filtered out.</li>
+        <li>Each mention was normalized to canonical installer entities (e.g., “RACV” → RACV Solar).</li>
+        <li>Share of Model Voice (SoMV) is calculated as total unprompted recommendations divided by total possible answers (${TOTAL_ANSWERS}).</li>
+      </ul>
     </div>
   </div>`);
 
