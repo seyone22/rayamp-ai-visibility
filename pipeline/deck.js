@@ -104,9 +104,14 @@
     stage.style.setProperty('--k', Math.min(w / 1920, h / 1080));
   }
 
-  document.getElementById('prev').addEventListener('click', function (e) { e.stopPropagation(); go(idx - 1); });
-  document.getElementById('next').addEventListener('click', function (e) { e.stopPropagation(); go(idx + 1); });
-  document.getElementById('fs').addEventListener('click', function (e) {
+  var prevBtn = document.getElementById('prev');
+  var nextBtn = document.getElementById('next');
+  var fsBtn = document.getElementById('fs');
+  var deckEl = document.getElementById('deck');
+
+  if (prevBtn) prevBtn.addEventListener('click', function (e) { e.stopPropagation(); go(idx - 1); });
+  if (nextBtn) nextBtn.addEventListener('click', function (e) { e.stopPropagation(); go(idx + 1); });
+  if (fsBtn) fsBtn.addEventListener('click', function (e) {
     e.stopPropagation();
     var el = document.documentElement;
     try {
@@ -115,7 +120,7 @@
     } catch (err) { /* not available */ }
   });
   // Click like a presenter's clicker: right two-thirds forward, left third back
-  document.getElementById('deck').addEventListener('click', function (e) {
+  if (deckEl) deckEl.addEventListener('click', function (e) {
     if (e.target.closest('a, button')) return;
     var r = stage.getBoundingClientRect();
     go(idx + (e.clientX < r.left + r.width / 3 ? -1 : 1));
@@ -126,7 +131,7 @@
     if (k === 'ArrowRight' || k === 'ArrowDown' || k === 'PageDown' || k === ' ' || k === 'Enter') { e.preventDefault(); go(idx + 1); }
     else if (k === 'ArrowLeft' || k === 'ArrowUp' || k === 'PageUp' || k === 'Backspace') { e.preventDefault(); go(idx - 1); }
     else if (k === 'Home') { go(0); } else if (k === 'End') { go(slides.length - 1); }
-    else if (k === 'f' || k === 'F') { document.getElementById('fs').click(); }
+    else if (k === 'f' || k === 'F') { if (fsBtn) fsBtn.click(); }
   });
   var sx = null, sy = null;
   document.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });

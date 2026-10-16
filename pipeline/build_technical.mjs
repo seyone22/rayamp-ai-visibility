@@ -416,16 +416,21 @@ slide('tech-08-matrix', 'white', `
 `);
 
 // ─── Assemble HTML ──────────────────────────────────────────────────────────
+const CSS = fs.readFileSync(path.join(pipelineDir, 'deck.css'), 'utf8');
+const JS = fs.readFileSync(path.join(pipelineDir, 'deck.js'), 'utf8');
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Rayamp Solar · Technical GEO Data Science Dossier · October 2026</title>
-<link rel="stylesheet" href="/deck.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"/>
 <link rel="icon" type="image/svg+xml" href="/assets/logo.svg"/>
 <style>
+${CSS}
   .tech-badge { display: inline-block; font-family: var(--f-mono); font-size: 13px; font-weight: 700; letter-spacing: 1.5px; padding: 4px 10px; background: rgba(255, 90, 57, 0.15); color: #FF5A39; border-radius: 4px; margin-bottom: 8px; width: fit-content; }
   .dark .tech-badge { background: rgba(255, 90, 57, 0.25); color: #FFA08A; }
   .katex-eq { margin: 12px 0; font-size: 19px; }
@@ -445,18 +450,19 @@ const html = `<!DOCTYPE html>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 </head>
 <body>
-<div class="deck">
+<div class="deck" id="deck">
   <div class="stage" id="stage">
     ${slides.map(s => `<section class="slide ${s.theme}" id="${s.id}">${s.html}</section>`).join('\n')}
     <div class="progress" aria-hidden="true"><i id="bar"></i></div>
   </div>
-  <div class="controls" id="controls">
-    <button class="c-btn" id="prev" aria-label="Previous slide">‹</button>
-    <span class="c-count" id="count">1 / ${slides.length}</span>
-    <button class="c-btn" id="next" aria-label="Next slide">›</button>
-  </div>
 </div>
-<script src="/deck.js"></script>
+<nav class="controls" id="controls" aria-label="Slide controls">
+  <button id="prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <span id="count" class="ctr">1 / ${slides.length}</span>
+  <button id="next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <button id="fs" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></button>
+</nav>
+<script>${JS}</script>
 </body>
 </html>`;
 

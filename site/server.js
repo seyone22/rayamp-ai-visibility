@@ -354,8 +354,16 @@ const server = http.createServer((req, res) => {
     }
     const techFile = path.join(__dirname, 'technical.html');
     if (fs.existsSync(techFile)) {
+      let html = fs.readFileSync(techFile, 'utf8');
+      const switcherHtml = `
+        <div style="position:fixed;bottom:16px;left:16px;z-index:9999;display:flex;gap:8px;align-items:center;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
+          <a href="/" style="background:#111010;color:#FFFFFF;padding:8px 14px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.3);border:1px solid #2D3748;">← Client Deck</a>
+          <a href="/logout" style="background:#111010;color:#94A3B8;padding:8px 10px;border-radius:6px;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);border:1px solid #2D3748;">Lock</a>
+        </div>
+      </body>`;
+      html = html.replace('</body>', switcherHtml);
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-      fs.createReadStream(techFile).pipe(res);
+      res.end(html);
       return;
     } else {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
@@ -373,38 +381,19 @@ const server = http.createServer((req, res) => {
     }
     const indexFile = path.join(__dirname, 'index.html');
     if (fs.existsSync(indexFile)) {
-      let content = fs.readFileSync(indexFile, 'utf8');
+      let html = fs.readFileSync(indexFile, 'utf8');
       // If internal role, inject technical switcher button if not already there
-      if (role === 'internal' && !content.includes('id="tech-dossier-pill"')) {
+      if (role === 'internal') {
         const switcherHtml = `
-          <a href="/technical" id="tech-dossier-pill" style="
-            position: fixed;
-            top: 20px;
-            right: 24px;
-            z-index: 9999;
-            background: #111010;
-            color: #FFFFFF;
-            border: 1px solid rgba(255, 90, 57, 0.4);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 600;
-            font-family: -apple-system, sans-serif;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            transition: all 0.2s ease;
-          " onmouseover="this.style.background='#FF5A39'; this.style.borderColor='#FF5A39';" onmouseout="this.style.background='#111010'; this.style.borderColor='rgba(255,90,57,0.4)';">
-            <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#FF5A39;"></span>
-            Technical Dossier →
-          </a>
-        `;
-        content = content.replace('</body>', `${switcherHtml}</body>`);
+          <div style="position:fixed;bottom:16px;left:16px;z-index:9999;display:flex;gap:8px;align-items:center;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
+            <a href="/technical" id="tech-dossier-pill" style="background:#FF5A39;color:#FFFFFF;padding:8px 14px;border-radius:6px;font-size:12px;font-weight:700;text-decoration:none;box-shadow:0 2px 8px rgba(255,90,57,0.35);border:1px solid #FF5A39;">Technical Dossier →</a>
+            <a href="/logout" style="background:#111010;color:#94A3B8;padding:8px 10px;border-radius:6px;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);border:1px solid #2D3748;">Lock</a>
+          </div>
+        </body>`;
+        html = html.replace('</body>', switcherHtml);
       }
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-      res.end(content);
+      res.end(html);
       return;
     } else {
       res.writeHead(404, { 'Content-Type': 'text/plain' });

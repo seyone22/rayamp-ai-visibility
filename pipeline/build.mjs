@@ -735,28 +735,35 @@ slide('cta', 'dark cta', `
   <footer class="foot on-dark"><span class="foot-logo">${logo()}</span><span>Rayamp Solar Pty Ltd · Melbourne, Victoria · 1800 729 267</span></footer>`, { dark: true, noFoot: true });
 
 // ─── Assemble HTML ──────────────────────────────────────────────────────────
+const CSS = fs.readFileSync(path.join(pipelineDir, 'deck.css'), 'utf8');
+const JS = fs.readFileSync(path.join(pipelineDir, 'deck.js'), 'utf8');
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Rayamp Solar · AI Visibility & GEO Audit · October 2026</title>
-<link rel="stylesheet" href="/deck.css"/>
+<title>Rayamp Solar · AI Visibility &amp; GEO Audit · October 2026</title>
+<meta name="description" content="Empirical study of where AI assistants recommend Rayamp Solar against competing Victoria solar and battery installers."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap">
 <link rel="icon" type="image/svg+xml" href="/assets/logo.svg"/>
+<style>${CSS}</style>
 </head>
 <body>
-<div class="deck">
+<div class="deck" id="deck">
   <div class="stage" id="stage">
     ${slides.join('\n')}
     <div class="progress" aria-hidden="true"><i id="bar"></i></div>
   </div>
-  <div class="controls" id="controls">
-    <button class="c-btn" id="prev" aria-label="Previous slide">‹</button>
-    <span class="c-count" id="count">1 / ${slides.length}</span>
-    <button class="c-btn" id="next" aria-label="Next slide">›</button>
-  </div>
 </div>
-<script src="/deck.js"></script>
+<nav class="controls" id="controls" aria-label="Slide controls">
+  <button id="prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <span id="count" class="ctr">1 / ${slides.length}</span>
+  <button id="next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <button id="fs" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></button>
+</nav>
+<script>${JS}</script>
 </body>
 </html>`;
 
