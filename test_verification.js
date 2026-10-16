@@ -131,7 +131,8 @@ async function runTests() {
     headers: { 'Cookie': internalCookie }
   });
   const internalRootHtml = await internalFetchRoot.text();
-  assert(internalRootHtml.includes('id="tech-dossier-pill"'), 'Internal user receives floating Technical Dossier switch pill');
+  assert(!internalRootHtml.includes('Technical Dossier'), 'Client presentation contains ZERO references to Technical Dossier');
+  assert(!internalRootHtml.includes('tech-dossier-pill'), 'Client presentation contains ZERO floating technical dossier switchers');
 
   console.log(`\n========================================================================`);
   console.log(`VERIFICATION SUMMARY: ${passed} / ${total} TESTS PASSED`);

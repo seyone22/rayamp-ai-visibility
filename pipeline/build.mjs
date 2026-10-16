@@ -735,7 +735,7 @@ slide('cta', 'dark cta', `
     <p class="lede on-dark rise" style="--d:300ms">We are ready to execute Month 1 directory integration, local review acceleration, and battery solution architecture immediately.</p>
     <div class="cta-actions rise" style="--d:450ms">
       <span class="pill-btn">Schedule Strategy Kickoff</span>
-      <span class="pill-outline">Review Technical Dossier</span>
+      <a href="tel:1800729267" class="pill-outline" style="text-decoration:none; color:#FFFFFF;">Call 1800 729 267</a>
     </div>
   </div>
   <footer class="foot on-dark"><span class="foot-logo">${logo()}</span><span>Rayamp Solar Pty Ltd · Melbourne, Victoria · 1800 729 267</span></footer>`, { dark: true, noFoot: true });

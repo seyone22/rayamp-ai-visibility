@@ -382,15 +382,14 @@ const server = http.createServer((req, res) => {
     const indexFile = path.join(__dirname, 'index.html');
     if (fs.existsSync(indexFile)) {
       let html = fs.readFileSync(indexFile, 'utf8');
-      // If internal role, inject technical switcher button if not already there
-      if (role === 'internal') {
-        const switcherHtml = `
+      // Inject minimalist lock control without any technical dossier disclosure
+      if (role) {
+        const lockHtml = `
           <div style="position:fixed;bottom:16px;left:16px;z-index:9999;display:flex;gap:8px;align-items:center;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
-            <a href="/technical" id="tech-dossier-pill" style="background:#FF5A39;color:#FFFFFF;padding:8px 14px;border-radius:6px;font-size:12px;font-weight:700;text-decoration:none;box-shadow:0 2px 8px rgba(255,90,57,0.35);border:1px solid #FF5A39;">Technical Dossier →</a>
             <a href="/logout" style="background:#111010;color:#94A3B8;padding:8px 10px;border-radius:6px;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);border:1px solid #2D3748;">Lock</a>
           </div>
         </body>`;
-        html = html.replace('</body>', switcherHtml);
+        html = html.replace('</body>', lockHtml);
       }
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(html);
