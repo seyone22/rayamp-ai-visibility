@@ -733,9 +733,6 @@ slide('cta', 'dark cta', `
     <p class="eyebrow on-dark rise" style="--d:100ms">Next Steps</p>
     <h2 class="display on-dark rise" style="--d:180ms">Ready to cement Rayamp Solar as Victoria’s most recommended solar & battery installer?</h2>
     <p class="lede on-dark rise" style="--d:300ms">We are ready to execute Month 1 directory integration, local review acceleration, and battery solution architecture immediately.</p>
-    <div class="cta-actions rise" style="--d:450ms">
-      <span class="pill-btn">Schedule Strategy Kickoff</span>
-    </div>
   </div>
   <footer class="foot on-dark"><span class="foot-logo">${logo()}</span><span>Prepared for Rayamp Solar Pty Ltd · Melbourne, Victoria</span></footer>`, { dark: true, noFoot: true });
 
