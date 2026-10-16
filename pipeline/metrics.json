@@ -1,0 +1,1671 @@
+{
+  "cities": {
+    "melbourne_east": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 86,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0428
+      },
+      "wvi": 0,
+      "rankPos": 11,
+      "totalFirms": 10,
+      "leader": "RACV Solar",
+      "leaderN": 24,
+      "leaderSomv": 0.2791,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 24,
+          "rec": 24,
+          "avgPos": 1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 20,
+          "rec": 20,
+          "avgPos": 1.9
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 17,
+          "rec": 17,
+          "avgPos": 2.6
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 12,
+          "rec": 12,
+          "avgPos": 2.1
+        },
+        {
+          "name": "Total Solar Solutions",
+          "n": 6,
+          "rec": 6,
+          "avgPos": 1.5
+        },
+        {
+          "name": "Solar Run",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 2.3
+        },
+        {
+          "name": "Sunpower",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        },
+        {
+          "name": "Essential Solar",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 4
+        },
+        {
+          "name": "Smart Energy",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 5
+        },
+        {
+          "name": "Natural Solar",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 6
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Total Solar Solutions",
+          "leaderN": 6
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 3
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 3
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 3
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 3
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 0,
+          "chatgpt": 3,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 6,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 2,
+          "chatgpt": 1,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 3,
+          "chatgpt": 2,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Total Solar Solutions": {
+          "gemini": 6,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Solar Run": {
+          "gemini": 0,
+          "chatgpt": 3,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ],
+        [
+          "chiefelectricians.com.au",
+          6
+        ],
+        [
+          "polarisedelectrical.com.au",
+          5
+        ],
+        [
+          "omzensolar.com.au",
+          4
+        ],
+        [
+          "solarcobber.com",
+          4
+        ],
+        [
+          "sunwiz.com.au",
+          3
+        ],
+        [
+          "whysolar.com.au",
+          3
+        ],
+        [
+          "supplysolar.com.au",
+          2
+        ],
+        [
+          "solar.vic.gov.au",
+          2
+        ],
+        [
+          "solarquotes.com.au",
+          2
+        ]
+      ]
+    },
+    "melbourne_west": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 84,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0437
+      },
+      "wvi": 0,
+      "rankPos": 9,
+      "totalFirms": 8,
+      "leader": "RACV Solar",
+      "leaderN": 30,
+      "leaderSomv": 0.3571,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 30,
+          "rec": 30,
+          "avgPos": 1.1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 20,
+          "rec": 20,
+          "avgPos": 2.1
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 16,
+          "rec": 16,
+          "avgPos": 2.6
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Essential Solar",
+          "n": 5,
+          "rec": 5,
+          "avgPos": 1.2
+        },
+        {
+          "name": "Sunpower",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 1.7
+        },
+        {
+          "name": "Solargain",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3.5
+        },
+        {
+          "name": "Smart Energy",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 4
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 6
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 2,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 6,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 2,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Essential Solar": {
+          "gemini": 5,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Sunpower": {
+          "gemini": 3,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "geelong": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 74,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0494
+      },
+      "wvi": 0,
+      "rankPos": 6,
+      "totalFirms": 5,
+      "leader": "RACV Solar",
+      "leaderN": 34,
+      "leaderSomv": 0.4595,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 34,
+          "rec": 34,
+          "avgPos": 1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 18,
+          "rec": 18,
+          "avgPos": 2
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Sunpower",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 6
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 6,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 4,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Sunpower": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "mornington": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 74,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0494
+      },
+      "wvi": 0,
+      "rankPos": 8,
+      "totalFirms": 7,
+      "leader": "RACV Solar",
+      "leaderN": 29,
+      "leaderSomv": 0.3919,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 29,
+          "rec": 29,
+          "avgPos": 1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 19,
+          "rec": 19,
+          "avgPos": 1.9
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Solargain",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 1
+        },
+        {
+          "name": "Sunpower",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        },
+        {
+          "name": "Total Solar Solutions",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 2
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 1,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 5,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Solargain": {
+          "gemini": 3,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Sunpower": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "ballarat": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 77,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0475
+      },
+      "wvi": 0,
+      "rankPos": 6,
+      "totalFirms": 5,
+      "leader": "RACV Solar",
+      "leaderN": 35,
+      "leaderSomv": 0.4545,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 35,
+          "rec": 35,
+          "avgPos": 1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 20,
+          "rec": 20,
+          "avgPos": 2
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Sunpower",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 7,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 6,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Sunpower": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "bendigo": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 73,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.05
+      },
+      "wvi": 0,
+      "rankPos": 7,
+      "totalFirms": 6,
+      "leader": "RACV Solar",
+      "leaderN": 34,
+      "leaderSomv": 0.4658,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 34,
+          "rec": 34,
+          "avgPos": 1.1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 15,
+          "rec": 15,
+          "avgPos": 2
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Solargain",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 1.5
+        },
+        {
+          "name": "Sunpower",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 6
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 6,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 1,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Solargain": {
+          "gemini": 2,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Sunpower": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "gippsland": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 74,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0494
+      },
+      "wvi": 0,
+      "rankPos": 7,
+      "totalFirms": 6,
+      "leader": "RACV Solar",
+      "leaderN": 35,
+      "leaderSomv": 0.473,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 35,
+          "rec": 35,
+          "avgPos": 1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 15,
+          "rec": 15,
+          "avgPos": 2
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2
+        },
+        {
+          "name": "Sunpower",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 1.5
+        },
+        {
+          "name": "Solargain",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 3
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 7,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 1,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Sunpower": {
+          "gemini": 2,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Solargain": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    },
+    "statewide_vic": {
+      "n": 35,
+      "lhdMentions": 0,
+      "totalMentions": 85,
+      "somv": 0,
+      "ci": {
+        "lower": 0,
+        "upper": 0.0432
+      },
+      "wvi": 0,
+      "rankPos": 9,
+      "totalFirms": 8,
+      "leader": "RACV Solar",
+      "leaderN": 32,
+      "leaderSomv": 0.3765,
+      "rankings": [
+        {
+          "name": "RACV Solar",
+          "n": 32,
+          "rec": 32,
+          "avgPos": 1.3
+        },
+        {
+          "name": "Jet Solar",
+          "n": 21,
+          "rec": 21,
+          "avgPos": 1.7
+        },
+        {
+          "name": "1KOMMA5° Melbourne",
+          "n": 15,
+          "rec": 15,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 8,
+          "rec": 8,
+          "avgPos": 2.3
+        },
+        {
+          "name": "Total Solar Solutions",
+          "n": 5,
+          "rec": 5,
+          "avgPos": 2.4
+        },
+        {
+          "name": "Sunpower",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 2
+        },
+        {
+          "name": "Smart Energy",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 3
+        },
+        {
+          "name": "Solargain",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 6
+        }
+      ],
+      "byPlatform": {
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        },
+        "serp": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "RACV Solar",
+          "leaderN": 7
+        }
+      },
+      "byPrompt": {
+        "payback": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "vpp": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "rebate": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "general": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 5
+        },
+        "battery": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        },
+        "quality": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "RACV Solar",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "RACV Solar": {
+          "gemini": 4,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 7
+        },
+        "Jet Solar": {
+          "gemini": 7,
+          "chatgpt": 7,
+          "perplexity": 0,
+          "aimode": 7,
+          "serp": 0
+        },
+        "1KOMMA5° Melbourne": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 7,
+          "aimode": 7,
+          "serp": 0
+        },
+        "Green Line Solar": {
+          "gemini": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 7
+        },
+        "Total Solar Solutions": {
+          "gemini": 5,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Sunpower": {
+          "gemini": 2,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        },
+        "Rayamp Solar": {
+          "gemini": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "aimode": 0,
+          "serp": 0
+        }
+      },
+      "citedAnswers": 0,
+      "topSources": [
+        [
+          "vertexaisearch.cloud.google.com",
+          7
+        ]
+      ]
+    }
+  },
+  "national": {
+    "totalAnswers": 280,
+    "totalMentions": 627,
+    "lhdMentions": 0,
+    "somv": 0,
+    "ci": {
+      "lower": 0,
+      "upper": 0.0061
+    },
+    "rankPos": 12,
+    "leader": "RACV Solar",
+    "leaderN": 253,
+    "leaderSomv": 0.4035,
+    "rankings": [
+      {
+        "name": "RACV Solar",
+        "n": 253,
+        "rec": 253,
+        "avgPos": 1.1
+      },
+      {
+        "name": "Jet Solar",
+        "n": 148,
+        "rec": 148,
+        "avgPos": 1.9
+      },
+      {
+        "name": "1KOMMA5° Melbourne",
+        "n": 118,
+        "rec": 118,
+        "avgPos": 2.5
+      },
+      {
+        "name": "Green Line Solar",
+        "n": 62,
+        "rec": 62,
+        "avgPos": 2
+      },
+      {
+        "name": "Sunpower",
+        "n": 12,
+        "rec": 12,
+        "avgPos": 1.4
+      },
+      {
+        "name": "Total Solar Solutions",
+        "n": 12,
+        "rec": 12,
+        "avgPos": 1.9
+      },
+      {
+        "name": "Solargain",
+        "n": 9,
+        "rec": 9,
+        "avgPos": 2.4
+      },
+      {
+        "name": "Essential Solar",
+        "n": 6,
+        "rec": 6,
+        "avgPos": 1.7
+      },
+      {
+        "name": "Solar Run",
+        "n": 3,
+        "rec": 3,
+        "avgPos": 2.3
+      },
+      {
+        "name": "Smart Energy",
+        "n": 3,
+        "rec": 3,
+        "avgPos": 4
+      },
+      {
+        "name": "Natural Solar",
+        "n": 1,
+        "rec": 1,
+        "avgPos": 6
+      }
+    ]
+  },
+  "platforms": [
+    "gemini",
+    "chatgpt",
+    "perplexity",
+    "aimode",
+    "serp"
+  ],
+  "prompts": [
+    "payback",
+    "vpp",
+    "efficiency",
+    "rebate",
+    "general",
+    "battery",
+    "quality"
+  ],
+  "totalSample": 280
+}

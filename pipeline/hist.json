@@ -1,0 +1,74 @@
+{
+  "rayampsolar.com.au": {
+    "hist": [
+      { "year": 2025, "month": 8, "metrics": { "mentions": 1, "ai_search_volume": 14 } },
+      { "year": 2025, "month": 9, "metrics": { "mentions": 1, "ai_search_volume": 18 } },
+      { "year": 2025, "month": 10, "metrics": { "mentions": 2, "ai_search_volume": 24 } },
+      { "year": 2025, "month": 11, "metrics": { "mentions": 2, "ai_search_volume": 29 } },
+      { "year": 2025, "month": 12, "metrics": { "mentions": 2, "ai_search_volume": 26 } },
+      { "year": 2026, "month": 1, "metrics": { "mentions": 2, "ai_search_volume": 33 } },
+      { "year": 2026, "month": 2, "metrics": { "mentions": 3, "ai_search_volume": 38 } },
+      { "year": 2026, "month": 3, "metrics": { "mentions": 3, "ai_search_volume": 44 } },
+      { "year": 2026, "month": 4, "metrics": { "mentions": 4, "ai_search_volume": 51 } },
+      { "year": 2026, "month": 5, "metrics": { "mentions": 4, "ai_search_volume": 58 } },
+      { "year": 2026, "month": 6, "metrics": { "mentions": 5, "ai_search_volume": 66 } },
+      { "year": 2026, "month": 7, "metrics": { "mentions": 5, "ai_search_volume": 74 } },
+      { "year": 2026, "month": 8, "metrics": { "mentions": 6, "ai_search_volume": 82 } },
+      { "year": 2026, "month": 9, "metrics": { "mentions": 6, "ai_search_volume": 92 } }
+    ]
+  },
+  "racv.com.au": {
+    "hist": [
+      { "year": 2025, "month": 8, "metrics": { "mentions": 84, "ai_search_volume": 1120 } },
+      { "year": 2025, "month": 9, "metrics": { "mentions": 88, "ai_search_volume": 1180 } },
+      { "year": 2025, "month": 10, "metrics": { "mentions": 92, "ai_search_volume": 1250 } },
+      { "year": 2025, "month": 11, "metrics": { "mentions": 97, "ai_search_volume": 1310 } },
+      { "year": 2025, "month": 12, "metrics": { "mentions": 94, "ai_search_volume": 1280 } },
+      { "year": 2026, "month": 1, "metrics": { "mentions": 102, "ai_search_volume": 1390 } },
+      { "year": 2026, "month": 2, "metrics": { "mentions": 106, "ai_search_volume": 1450 } },
+      { "year": 2026, "month": 3, "metrics": { "mentions": 110, "ai_search_volume": 1510 } },
+      { "year": 2026, "month": 4, "metrics": { "mentions": 114, "ai_search_volume": 1570 } },
+      { "year": 2026, "month": 5, "metrics": { "mentions": 118, "ai_search_volume": 1640 } },
+      { "year": 2026, "month": 6, "metrics": { "mentions": 122, "ai_search_volume": 1710 } },
+      { "year": 2026, "month": 7, "metrics": { "mentions": 125, "ai_search_volume": 1780 } },
+      { "year": 2026, "month": 8, "metrics": { "mentions": 128, "ai_search_volume": 1840 } },
+      { "year": 2026, "month": 9, "metrics": { "mentions": 131, "ai_search_volume": 1920 } }
+    ]
+  },
+  "jetsolar.com.au": {
+    "hist": [
+      { "year": 2025, "month": 8, "metrics": { "mentions": 76, "ai_search_volume": 940 } },
+      { "year": 2025, "month": 9, "metrics": { "mentions": 80, "ai_search_volume": 1010 } },
+      { "year": 2025, "month": 10, "metrics": { "mentions": 85, "ai_search_volume": 1080 } },
+      { "year": 2025, "month": 11, "metrics": { "mentions": 89, "ai_search_volume": 1140 } },
+      { "year": 2025, "month": 12, "metrics": { "mentions": 87, "ai_search_volume": 1110 } },
+      { "year": 2026, "month": 1, "metrics": { "mentions": 94, "ai_search_volume": 1220 } },
+      { "year": 2026, "month": 2, "metrics": { "mentions": 97, "ai_search_volume": 1280 } },
+      { "year": 2026, "month": 3, "metrics": { "mentions": 101, "ai_search_volume": 1340 } },
+      { "year": 2026, "month": 4, "metrics": { "mentions": 104, "ai_search_volume": 1390 } },
+      { "year": 2026, "month": 5, "metrics": { "mentions": 107, "ai_search_volume": 1450 } },
+      { "year": 2026, "month": 6, "metrics": { "mentions": 110, "ai_search_volume": 1510 } },
+      { "year": 2026, "month": 7, "metrics": { "mentions": 113, "ai_search_volume": 1580 } },
+      { "year": 2026, "month": 8, "metrics": { "mentions": 115, "ai_search_volume": 1630 } },
+      { "year": 2026, "month": 9, "metrics": { "mentions": 118, "ai_search_volume": 1700 } }
+    ]
+  },
+  "1komma5grad.com.au": {
+    "hist": [
+      { "year": 2025, "month": 8, "metrics": { "mentions": 48, "ai_search_volume": 620 } },
+      { "year": 2025, "month": 9, "metrics": { "mentions": 52, "ai_search_volume": 670 } },
+      { "year": 2025, "month": 10, "metrics": { "mentions": 57, "ai_search_volume": 740 } },
+      { "year": 2025, "month": 11, "metrics": { "mentions": 61, "ai_search_volume": 800 } },
+      { "year": 2025, "month": 12, "metrics": { "mentions": 59, "ai_search_volume": 770 } },
+      { "year": 2026, "month": 1, "metrics": { "mentions": 66, "ai_search_volume": 860 } },
+      { "year": 2026, "month": 2, "metrics": { "mentions": 71, "ai_search_volume": 920 } },
+      { "year": 2026, "month": 3, "metrics": { "mentions": 75, "ai_search_volume": 980 } },
+      { "year": 2026, "month": 4, "metrics": { "mentions": 79, "ai_search_volume": 1040 } },
+      { "year": 2026, "month": 5, "metrics": { "mentions": 83, "ai_search_volume": 1100 } },
+      { "year": 2026, "month": 6, "metrics": { "mentions": 86, "ai_search_volume": 1160 } },
+      { "year": 2026, "month": 7, "metrics": { "mentions": 89, "ai_search_volume": 1220 } },
+      { "year": 2026, "month": 8, "metrics": { "mentions": 92, "ai_search_volume": 1280 } },
+      { "year": 2026, "month": 9, "metrics": { "mentions": 95, "ai_search_volume": 1340 } }
+    ]
+  }
+}

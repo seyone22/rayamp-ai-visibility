@@ -1,0 +1,3429 @@
+[
+  {
+    "city": "melbourne_east",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Total Solar Solutions",
+      "1KOMMA5° Melbourne",
+      "Essential Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "Total Solar Solutions",
+      "Jet Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "Total Solar Solutions",
+      "Green Line Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne",
+      "Smart Energy",
+      "Natural Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "Jet Solar",
+      "Solar Run"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "Jet Solar",
+      "Green Line Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "Jet Solar",
+      "Green Line Solar",
+      "Solar Run"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "Jet Solar",
+      "Solar Run"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_east",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "Essential Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "Essential Solar",
+      "Jet Solar",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "Essential Solar",
+      "Solargain",
+      "Sunpower",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "Essential Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Essential Solar",
+      "1KOMMA5° Melbourne",
+      "Smart Energy",
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "melbourne_west",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "geelong",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "Solargain",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "mornington",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "ballarat",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Solargain",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "bendigo",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Sunpower",
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "gippsland",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "general",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions",
+      "Sunpower",
+      "Green Line Solar",
+      "RACV Solar",
+      "Solargain"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "general",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "general",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "general",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "general",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "rebate",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "rebate",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "rebate",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "rebate",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "rebate",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "payback",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "1KOMMA5° Melbourne",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "payback",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "payback",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "payback",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "payback",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "vpp",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "RACV Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "efficiency",
+    "platform": "gemini",
+    "firms": [
+      "Sunpower",
+      "Jet Solar",
+      "Smart Energy",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "vpp",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "vpp",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "vpp",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "vpp",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "quality",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "efficiency",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "quality",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "efficiency",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "efficiency",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "quality",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "quality",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "quality",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "battery",
+    "platform": "gemini",
+    "firms": [
+      "Jet Solar",
+      "Total Solar Solutions"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "battery",
+    "platform": "chatgpt",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "battery",
+    "platform": "perplexity",
+    "firms": [
+      "RACV Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "battery",
+    "platform": "aimode",
+    "firms": [
+      "RACV Solar",
+      "Jet Solar",
+      "1KOMMA5° Melbourne"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  },
+  {
+    "city": "statewide_vic",
+    "prompt": "battery",
+    "platform": "serp",
+    "firms": [
+      "RACV Solar",
+      "Green Line Solar"
+    ],
+    "targetMentioned": false,
+    "targetRank": null,
+    "stance": "Not Mentioned"
+  }
+]
