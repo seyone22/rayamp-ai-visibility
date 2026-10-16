@@ -197,19 +197,25 @@ function platStrip(cityKey) {
 // ─── 2. Shift ───────────────────────────────────────────────────────────────
 {
   const chart = lineChart({
-    w: 920, h: 480, pad: [30, 60, 60, 70],
+    w: 1000, h: 540, pad: [40, 160, 70, 80],
     labels: AIDEMAND.labels,
-    series: [{ name: 'Conversational Solar Queries', values: AIDEMAND.values, color: '#FF5A39', width: 5, cls: 'pulp', area: 'gPulp', r: 8 }],
-    yMax: 2400, yTicks: [0, 600, 1200, 1800, 2400],
+    yMax: 2400,
+    yTicks: [0, 600, 1200, 1800, 2400],
     yFmt: v => v.toLocaleString(),
-    area: true, dark: false
+    series: [{ name: 'Sep 26', values: AIDEMAND.values, color: '#FF5A39', width: 6, area: 'gPulp', valueLabel: '', label: false, r: 8 }],
+    area: true,
+    endLabels: false,
+    ann: [
+      (x, y) => `<g class="pop" style="--d:1500ms"><text x="${x(11) + 20}" y="${y(2140) + 8}" class="callnum">2,140/mo</text></g>`,
+      (x, y) => `<text x="${x(0)}" y="${y(620) - 24}" class="callsmall" text-anchor="start">620/mo</text>`,
+    ],
   });
 
   slide('shift', 'light', `
     <header class="hd"><p class="eyebrow">The Structural Shift</p><h2 class="h1">Homeowners no longer click 10 Google links. They ask AI assistants for an authoritative solar installer shortlist.</h2></header>
-    <div class="cols-60">
+    <div class="cols-2 why">
       <div class="panel">
-        <p class="chart-title">Estimated Monthly AI Conversational Queries for Home Solar & Batteries in Victoria <span class="muted">· +245% over 12 months</span></p>
+        <div class="kpi-inline"><span class="big pulp">+245%</span><span class="kpi-cap">estimated monthly AI-assistant conversational searches for <b>“best solar and battery installer Victoria”</b>, Oct 2025 to Sep 2026</span></div>
         ${chart}
       </div>
       <ol class="points">
