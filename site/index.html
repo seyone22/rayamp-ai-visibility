@@ -44,7 +44,7 @@ ol, ul { padding: 0; list-style: none; }
 .eyebrow { font-family: var(--f-mono); font-size: 20px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--pulp); }
 .eyebrow.on-dark { color: var(--pulp-300); }
 .eyebrow.on-accent { color: #FFF0ED; }
-.display { font-family: 'Audiowide', var(--f-sans);  font-size: 80px; line-height: 1.04; font-weight: 800; letter-spacing: -2px; text-wrap: balance; max-width: 1520px; }
+.display { font-family: var(--f-sans); font-size: 80px; line-height: 1.04; font-weight: 800; letter-spacing: -2px; text-wrap: balance; max-width: 1520px; }
 .h1 { font-size: 50px; line-height: 1.1; font-weight: 800; letter-spacing: -1px; text-wrap: balance; max-width: 1560px; color: var(--ink); }
 .dark .h1 { color: var(--white); }
 .h3 { font-size: 26px; font-weight: 700; letter-spacing: -.2px; margin-bottom: 12px; }
@@ -178,7 +178,8 @@ ol, ul { padding: 0; list-style: none; }
   position: relative;
 }
 .cover .display {
-  font-family: 'Audiowide', var(--f-sans);
+  font-family: var(--f-sans);
+  font-weight: 800;
   font-size: 76px;
   color: #230e09;
   letter-spacing: -2px;
@@ -334,7 +335,7 @@ ol, ul { padding: 0; list-style: none; }
 .muted-d { color: var(--on-dark-2); font-family: var(--f-mono); font-size: 17px; }
 
 /* ── Accent divider ────────────────────────────────────────────────────── */
-.accent .display { font-family: 'Audiowide', var(--f-sans);  color: var(--white); max-width: 1560px; }
+.accent .display { font-family: var(--f-sans); font-weight: 800; color: var(--white); max-width: 1560px; }
 .accent-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 54px; margin-top: 14px; }
 .accent-stats.cols-4 { grid-template-columns: repeat(4, 1fr); gap: 28px; }
 .accent-stats > div { display: flex; flex-direction: column; gap: 10px; border-top: 2px solid rgba(255,255,255,.4); padding-top: 20px; }
@@ -478,7 +479,7 @@ ol, ul { padding: 0; list-style: none; }
 
 /* close */
 .close { justify-content: center; gap: 48px; }
-.close .display { font-family: 'Audiowide', var(--f-sans);  color: var(--white); position: relative; }
+.close .display { font-family: var(--f-sans); font-weight: 800; color: var(--white); position: relative; }
 .close .eyebrow { position: relative; }
 .next { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; position: relative; max-width: 1640px; }
 .next li { display: flex; flex-direction: column; gap: 14px; border-top: 2px solid #34405E; padding-top: 20px; }
