@@ -8,16 +8,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap">
 <link rel="icon" type="image/svg+xml" href="/assets/logo.svg"/>
-<style>@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=JetBrains+Mono:wght@400;600;700&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap');
 /* Layout: a fixed 1920×1080 stage scaled to the viewport; slides stack inside it. Narrow screens get a scrolling column of scaled slides. */
 :root {
   --pulp: #FF5A39; --pulp-dark: #E84E2F; --pulp-400: #FF7559; --pulp-300: #FFA08A; --pulp-100: #FFE8E3; --pulp-50: #FFF3F0;
+  --solar-amber: #FF9E1B; --solar-gold: #FFB800; --solar-warm: #FFF8F4;
   --dark-bg: #111010; --dark-card: #1C1B1B; --dark-card-2: #242222; --dark-border: #2D3748;
-  --paper: #F8FAFC; --paper-card: #F1F5F9; --white: #FFFFFF; --ink: #0F172A; --slate: #64748B; --line: #E2E8F0;
+  --paper: #F8FAFC; --paper-card: #FFFFFF; --white: #FFFFFF; --ink: #0F172A; --slate: #64748B; --line: #E2E8F0;
   --comp: #CBD5E1; --leader: #0F172A; --on-dark: #F1F5F9; --on-dark-2: #94A3B8; --surround: #060911;
-  --f-sans: 'Aptos', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-sans: 'Plus Jakarta Sans', 'Aptos', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
   --f-mono: 'JetBrains Mono', 'Overpass Mono', ui-monospace, Menlo, Consolas, monospace;
-  color-scheme: dark;
+  color-scheme: light dark;
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -27,10 +28,10 @@ ol, ul { padding: 0; list-style: none; }
 
 /* ── Stage ─────────────────────────────────────────────────────────────── */
 .deck { position: fixed; inset: 0; }
-.stage { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform: translate(-50%, -50%) scale(var(--k, .5)); transform-origin: center; overflow: hidden; background: var(--dark-bg); box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+.stage { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform: translate(-50%, -50%) scale(var(--k, .5)); transform-origin: center; overflow: hidden; background: var(--white); box-shadow: 0 30px 80px rgba(0,0,0,.6); }
 .slide { position: absolute; inset: 0; padding: 70px 104px 90px; display: flex; flex-direction: column; gap: 26px; justify-content: flex-start; visibility: hidden; transform: translateX(100%); z-index: 1; transition: transform .8s cubic-bezier(.22,.9,.24,1), opacity .8s ease, visibility 0s linear .8s; }
 .slide.is-future { transform: translateX(100%); z-index: 3; }
-.slide.is-active { visibility: visible; transform: none; opacity: 1; z-index: 2; box-shadow: -50px 0 90px rgba(0,0,0,.45); transition: transform .8s cubic-bezier(.22,.9,.24,1), opacity .8s ease, visibility 0s; }
+.slide.is-active { visibility: visible; transform: none; opacity: 1; z-index: 2; box-shadow: -50px 0 90px rgba(0,0,0,.15); transition: transform .8s cubic-bezier(.22,.9,.24,1), opacity .8s ease, visibility 0s; }
 .slide.is-past { transform: translateX(-28%); opacity: .2; z-index: 1; }
 .slide.light { background: var(--paper); }
 .slide.white { background: var(--white); }
@@ -42,7 +43,7 @@ ol, ul { padding: 0; list-style: none; }
 /* ── Type ──────────────────────────────────────────────────────────────── */
 .eyebrow { font-family: var(--f-mono); font-size: 20px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--pulp); }
 .eyebrow.on-dark { color: var(--pulp-300); }
-.eyebrow.on-accent { color: #EDE9FE; }
+.eyebrow.on-accent { color: #FFF0ED; }
 .display { font-family: 'Audiowide', var(--f-sans);  font-size: 80px; line-height: 1.04; font-weight: 800; letter-spacing: -2px; text-wrap: balance; max-width: 1520px; }
 .h1 { font-size: 50px; line-height: 1.1; font-weight: 800; letter-spacing: -1px; text-wrap: balance; max-width: 1560px; color: var(--ink); }
 .dark .h1 { color: var(--white); }
@@ -67,10 +68,17 @@ ol, ul { padding: 0; list-style: none; }
 /* footer */
 .foot { position: absolute; left: 104px; bottom: 22px; display: flex; align-items: center; gap: 20px; font-family: var(--f-mono); font-size: 16px; color: var(--slate); z-index: 4; }
 .foot.on-dark { color: var(--on-dark-2); }
-.foot-logo .logo { height: 20px; width: auto; color: var(--ink); display: block; }
+.foot-logo .logo { height: 22px; width: auto; display: block; }
 .foot.on-dark .foot-logo .logo { color: var(--white); }
-.accent .foot { color: #EDE9FE; }
+.accent .foot { color: #FFF0ED; }
 .accent .foot-logo .logo { color: var(--white); }
+
+/* Logo Branding Engine */
+.logo { display: block; height: auto; max-width: 100%; }
+.logo .cls-1 { fill: currentColor; }
+.logo .cls-2 { fill: #FF5A39; }
+.dark .logo, .accent .logo, .foot.on-dark .logo, .on-dark .logo { color: #FFFFFF; }
+.light .logo, .white .logo, .cover .logo, .foot:not(.on-dark) .logo { color: #230e09; }
 
 /* ── Layout helpers ────────────────────────────────────────────────────── */
 .cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
@@ -132,26 +140,151 @@ ol, ul { padding: 0; list-style: none; }
 .finds b { color: var(--ink); }
 
 /* ── Cover ─────────────────────────────────────────────────────────────── */
-.cover { padding: 70px 104px 80px; display: grid; grid-template-columns: 840px 1fr; grid-template-rows: auto 1fr; gap: 0 64px; }
-.cover-bg { position: absolute; inset: 0; background: radial-gradient(1200px 700px at 85% 30%, rgba(169,152,255,.22), transparent 60%), radial-gradient(900px 600px at 0% 100%, rgba(124,58,237,.14), transparent 60%); pointer-events: none; }
-.cover-logo, .close-logo { color: var(--white); grid-column: 1 / -1; }
-.cover-logo .logo { height: 40px; width: auto; display: block; }
-.cover-main { align-self: center; display: flex; flex-direction: column; gap: 28px; position: relative; }
-.cover .display { font-family: 'Audiowide', var(--f-sans);  font-size: 76px; color: var(--white); letter-spacing: -2px; }
-.cover-grid { align-self: center; position: relative; display: flex; flex-direction: column; gap: 10px; background: rgba(21,26,36,.65); padding: 28px 32px; border: 1px solid var(--dark-border); border-radius: 8px; }
-.cover-grid figcaption { font-family: var(--f-mono); font-size: 17px; color: var(--on-dark-2); display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-.key { width: 16px; height: 16px; display: inline-block; border: 2px solid #3E4B6B; margin-left: 12px; border-radius: 2px; }
-.key:first-child { margin-left: 0; }
-.key.on { background: var(--pulp); border-color: var(--pulp); }
-.cv-row { display: grid; grid-template-columns: 140px auto 44px; align-items: center; gap: 12px; }
-.cv-city { font-family: var(--f-mono); font-size: 18px; color: var(--on-dark-2); text-align: right; }
-.cv-cells { display: flex; gap: 4px; }
-.cv-cells i { width: 14px; height: 20px; background: #222938; display: block; border-radius: 2px; }
-.cv-cells i:nth-child(5n):not(:last-child) { margin-right: 6px; }
-.cv-cells i.on { background: var(--pulp); }
-.cv-n { font-family: var(--f-mono); font-size: 19px; color: var(--white); font-weight: 600; }
-.cv-total { margin-top: 14px; font-size: 23px; color: var(--on-dark-2); padding-left: 154px; }
-.cv-total b { font-size: 48px; color: var(--white); font-weight: 800; margin-right: 8px; }
+.cover {
+  padding: 70px 104px 80px;
+  display: grid;
+  grid-template-columns: 840px 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 0 64px;
+  background: linear-gradient(180deg, #FFF6EE 0%, #FFFAF5 42%, #FFFFFF 100%);
+  color: #230e09;
+}
+.cover-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(1200px 700px at 85% 20%, rgba(255, 90, 57, 0.12), transparent 60%),
+              radial-gradient(900px 600px at 5% 95%, rgba(255, 184, 0, 0.10), transparent 60%);
+  pointer-events: none;
+}
+.cover-logo, .close-logo {
+  color: #230e09;
+  grid-column: 1 / -1;
+  padding-top: 4px;
+  margin-bottom: 8px;
+}
+.cover-logo .logo {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+.cover-main {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+}
+.cover .display {
+  font-family: 'Audiowide', var(--f-sans);
+  font-size: 76px;
+  color: #230e09;
+  letter-spacing: -2px;
+  line-height: 1.05;
+}
+.cover .eyebrow {
+  color: var(--pulp);
+}
+.cover .lede {
+  color: #5A4540;
+  font-size: 28px;
+  line-height: 1.4;
+}
+.cover .byline {
+  color: #8C7873;
+  font-family: var(--f-mono);
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.cover-grid {
+  align-self: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #FFFFFF;
+  padding: 28px 32px;
+  border: 1px solid rgba(35, 14, 9, 0.10);
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(35, 14, 9, 0.06), 0 2px 8px rgba(35, 14, 9, 0.03);
+}
+.cover-grid figcaption {
+  font-family: var(--f-mono);
+  font-size: 16px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.key {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: #E2E8F0;
+  border: 1px solid #CBD5E1;
+  margin-left: 12px;
+  border-radius: 2px;
+}
+.key:first-child {
+  margin-left: 0;
+}
+.key.on {
+  background: var(--pulp);
+  border-color: var(--pulp);
+  box-shadow: 0 0 8px rgba(255, 90, 57, 0.35);
+}
+.cv-row {
+  display: grid;
+  grid-template-columns: 140px auto 44px;
+  align-items: center;
+  gap: 12px;
+}
+.cv-city {
+  font-family: var(--f-mono);
+  font-size: 17px;
+  color: #64748B;
+  text-align: right;
+  font-weight: 500;
+}
+.cv-cells {
+  display: flex;
+  gap: 4px;
+}
+.cv-cells i {
+  width: 14px;
+  height: 20px;
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  display: block;
+  border-radius: 2px;
+}
+.cv-cells i:nth-child(5n):not(:last-child) {
+  margin-right: 6px;
+}
+.cv-cells i.on {
+  background: var(--pulp);
+  border-color: var(--pulp);
+  box-shadow: 0 0 8px rgba(255, 90, 57, 0.4);
+}
+.cv-n {
+  font-family: var(--f-mono);
+  font-size: 19px;
+  color: #0F172A;
+  font-weight: 700;
+}
+.cv-total {
+  margin-top: 14px;
+  font-size: 22px;
+  color: #64748B;
+  padding-left: 154px;
+}
+.cv-total b {
+  font-size: 48px;
+  color: var(--pulp);
+  font-weight: 800;
+  margin-right: 8px;
+  font-family: var(--f-mono);
+}
 
 /* ── Why ───────────────────────────────────────────────────────────────── */
 .why { grid-template-columns: 1040px 1fr; gap: 64px; }
@@ -429,8 +562,8 @@ ol, ul { padding: 0; list-style: none; }
 .is-active .g-phases span { animation: fadein .6s ease both; animation-delay: 1200ms; }
 .is-active .accent-stats > div, .is-active .next li { border-top-color: rgba(255,255,255,.4); }
 
-/* Uprise row gets a spotlight */
-@keyframes spotlight { 0% { box-shadow: 0 0 0 0 rgba(124,58,237,0); } 40% { box-shadow: 0 0 0 10px rgba(124,58,237,.25); } 100% { box-shadow: 0 0 0 0 rgba(124,58,237,0); } }
+/* Rayamp row gets a spotlight */
+@keyframes spotlight { 0% { box-shadow: 0 0 0 0 rgba(255,90,57,0); } 40% { box-shadow: 0 0 0 10px rgba(255,90,57,.25); } 100% { box-shadow: 0 0 0 0 rgba(255,90,57,0); } }
 .is-active .hb-row.is-pulp { animation: fadein .5s ease both, spotlight 1.4s ease 1.5s both; animation-delay: calc(var(--i) * 70ms + 150ms), 1.6s; }
 .is-active .heat-row.is-pulp { animation: spotlight 1.4s ease 1.8s both; }
 .is-active .why-table tr.is-pulp td { animation: flashrow 1.6s ease 1.4s both; }
@@ -449,13 +582,22 @@ ol, ul { padding: 0; list-style: none; }
 .pulse { fill: var(--pulp); transform-box: fill-box; transform-origin: center; opacity: 0; }
 .is-active .pulse { animation: pulse 2.4s ease-out infinite; animation-delay: var(--d, 1.5s); }
 
-/* ambient light on dark slides */
+/* ambient light on dark slides: solar radiant glow */
 @keyframes drift { 0% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-60px, 40px) scale(1.08); } 100% { transform: translate(0, 0) scale(1); } }
-.slide.dark::before, .slide.accent::before { content: ''; position: absolute; width: 1400px; height: 1000px; right: -300px; top: -300px; background: radial-gradient(closest-side, rgba(124,58,237,.20), transparent 70%); pointer-events: none; animation: drift 14s ease-in-out infinite; }
+.slide.dark::before, .slide.accent::before { content: ''; position: absolute; width: 1400px; height: 1000px; right: -300px; top: -300px; background: radial-gradient(closest-side, rgba(255,90,57,.16), transparent 70%), radial-gradient(closest-side, rgba(255,184,0,.12), transparent 70%); pointer-events: none; animation: drift 14s ease-in-out infinite; }
 .slide.accent::before { background: radial-gradient(closest-side, rgba(255,255,255,.14), transparent 70%); }
 .slide > * { position: relative; }
 .slide > .src, .slide > .foot, .slide > .cover-bg, .slide > .close-logo { position: absolute; }
 .cover-bg { animation: drift 18s ease-in-out infinite reverse; }
+
+/* ── CTA Slide ─────────────────────────────────────────────────────────── */
+.cta-logo .logo { height: 48px; width: auto; margin-bottom: 24px; display: block; }
+.cta-main { max-width: 1300px; display: flex; flex-direction: column; gap: 24px; }
+.cta-actions { display: flex; gap: 20px; align-items: center; margin-top: 16px; }
+.pill-btn { display: inline-flex; align-items: center; justify-content: center; padding: 16px 36px; border-radius: 999px; background: var(--pulp); color: #FFFFFF; font-family: var(--f-sans); font-weight: 700; font-size: 20px; letter-spacing: -0.2px; box-shadow: 0 8px 24px rgba(255, 90, 57, 0.4); cursor: pointer; transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease; }
+.pill-btn:hover { background: var(--pulp-dark); transform: translateY(-2px); box-shadow: 0 12px 28px rgba(255, 90, 57, 0.55); }
+.pill-outline { display: inline-flex; align-items: center; justify-content: center; padding: 16px 36px; border-radius: 999px; background: transparent; color: #FFFFFF; border: 2px solid rgba(255, 255, 255, 0.35); font-family: var(--f-sans); font-weight: 600; font-size: 20px; cursor: pointer; transition: all 0.2s ease; }
+.pill-outline:hover { border-color: #FFFFFF; background: rgba(255, 255, 255, 0.1); transform: translateY(-2px); }
 
 /* presenting: controls and cursor tuck away when idle */
 .controls { transition: opacity .4s ease; }
@@ -530,13 +672,13 @@ body.idle { cursor: none; }
 <body>
 <div class="deck" id="deck">
   <div class="stage" id="stage">
-    <section class="slide dark cover" id="cover" data-title="cover">
+    <section class="slide cover white" id="cover" data-title="cover">
     <div class="cover-bg" aria-hidden="true"></div>
     <div class="cover-logo rise" style="--d:0ms"><svg class="logo" aria-label="Rayamp Solar" role="img" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 955.71 212.56">
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -564,9 +706,9 @@ body.idle { cursor: none; }
   </g>
 </svg></div>
     <div class="cover-main">
-      <p class="eyebrow on-dark rise" style="--d:100ms">AI Visibility & Generative Engine Optimization (GEO) · October 2026</p>
-      <h1 class="display rise" style="--d:180ms">When Victorian homeowners ask AI for solar & battery installers, who gets recommended?</h1>
-      <p class="lede on-dark rise" style="--d:300ms">Rayamp Solar against competing Victorian residential solar and battery installers across 8 regional markets, 5 AI engines, and 280 commercial buying intent queries.</p>
+      <p class="eyebrow rise" style="--d:100ms">AI Visibility &amp; Generative Engine Optimization (GEO) · October 2026</p>
+      <h1 class="display rise" style="--d:180ms">When Victorian homeowners ask AI for solar &amp; battery installers, who gets recommended?</h1>
+      <p class="lede rise" style="--d:300ms">Rayamp Solar against competing Victorian residential solar and battery installers across 8 regional markets, 5 AI engines, and 280 commercial buying intent queries.</p>
       <p class="byline rise" style="--d:420ms">Prepared for Rayamp Solar Management Team · Client Confidential</p>
     </div>
     <figure class="cover-grid rise" style="--d:350ms" aria-label="Grid of 280 AI answers by market; highlighted cells name Rayamp Solar">
@@ -599,7 +741,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -664,7 +806,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -756,7 +898,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -869,7 +1011,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -907,7 +1049,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -999,7 +1141,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1091,7 +1233,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1165,7 +1307,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1220,7 +1362,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1292,7 +1434,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1342,7 +1484,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1425,7 +1567,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1505,7 +1647,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1539,7 +1681,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1575,7 +1717,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1645,7 +1787,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1693,7 +1835,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1743,7 +1885,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1789,7 +1931,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1827,7 +1969,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1878,7 +2020,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1927,7 +2069,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -1960,7 +2102,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {
@@ -2000,7 +2142,7 @@ body.idle { cursor: none; }
   <defs>
     <style>
       .cls-1 {
-        fill: #230e09;
+        fill: currentColor;
       }
 
       .cls-2 {

@@ -178,20 +178,20 @@ function platStrip(cityKey) {
   });
   const grid = rows.map((r, ri) => `<div class="cv-row"><span class="cv-city">${CITY[r.c]}</span><span class="cv-cells">${r.cells.map((on, ci) => `<i class="${on ? 'on' : ''}" style="--d:${(ri * ANSWERS_PER_CITY + ci) * 6}ms"></i>`).join('')}</span><span class="cv-n">${r.cells.filter(Boolean).length}</span></div>`).join('');
 
-  slide('cover', 'dark cover', `
+  slide('cover', 'cover white', `
     <div class="cover-bg" aria-hidden="true"></div>
     <div class="cover-logo rise" style="--d:0ms">${logo()}</div>
     <div class="cover-main">
-      <p class="eyebrow on-dark rise" style="--d:100ms">AI Visibility & Generative Engine Optimization (GEO) · October 2026</p>
-      <h1 class="display rise" style="--d:180ms">When Victorian homeowners ask AI for solar & battery installers, who gets recommended?</h1>
-      <p class="lede on-dark rise" style="--d:300ms">Rayamp Solar against competing Victorian residential solar and battery installers across ${ORDER.length} regional markets, ${NUM_PLATFORMS} AI engines, and ${TOTAL_ANSWERS} commercial buying intent queries.</p>
+      <p class="eyebrow rise" style="--d:100ms">AI Visibility &amp; Generative Engine Optimization (GEO) · October 2026</p>
+      <h1 class="display rise" style="--d:180ms">When Victorian homeowners ask AI for solar &amp; battery installers, who gets recommended?</h1>
+      <p class="lede rise" style="--d:300ms">Rayamp Solar against competing Victorian residential solar and battery installers across ${ORDER.length} regional markets, ${NUM_PLATFORMS} AI engines, and ${TOTAL_ANSWERS} commercial buying intent queries.</p>
       <p class="byline rise" style="--d:420ms">Prepared for Rayamp Solar Management Team · Client Confidential</p>
     </div>
     <figure class="cover-grid rise" style="--d:350ms" aria-label="Grid of ${TOTAL_ANSWERS} AI answers by market; highlighted cells name Rayamp Solar">
       <figcaption><span class="key on"></span>Answer names Rayamp Solar <span class="key"></span>Answer omits Rayamp Solar</figcaption>
       ${grid}
       <p class="cv-total"><b class="count" data-to="${nat.lhdMentions}">${nat.lhdMentions}</b> of ${TOTAL_ANSWERS} answers name Rayamp Solar (${pct(nat.lhdMentions, TOTAL_ANSWERS)}%)</p>
-    </figure>`, { dark: true, noFoot: true });
+    </figure>`, { dark: false, noFoot: true });
 }
 
 // ─── 2. Shift ───────────────────────────────────────────────────────────────
