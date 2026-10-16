@@ -528,9 +528,9 @@ slide('regional-summary', 'white', `
 
 // ─── 15. The Plan Intro (Accent) ────────────────────────────────────────────
 slide('plan-intro', 'accent', `
-  <p class="eyebrow on-accent rise" style="--d:0ms">The Strategic Solution</p>
-  <h2 class="display on-accent rise" style="--d:120ms">The 5-Pillar GEO Roadmap to Make Rayamp Solar the #1 Recommended Residential Installer in Victoria</h2>
-  <p class="lede on-accent rise" style="--d:260ms">A systematic engineering roadmap designed to penetrate the 4 authority ecosystems AI engines rely on, solidify Rayamp's Knowledge Graph entity, and capture high-intent solar & battery installations.</p>`, { dark: true });
+  <p class="eyebrow on-accent rise" style="--d:0ms">The Plan</p>
+  <h2 class="display on-accent rise" style="--d:120ms">How Rayamp Solar gets on every shortlist</h2>
+  <p class="lede on-accent rise" style="--d:260ms">Five workstreams, each tied to a gap in the data. Melbourne East comes first, then Mornington Peninsula and Geelong, where Rayamp is currently unranked.</p>`, { dark: true });
 
 // ─── 16. The 5 Strategic Workstreams ────────────────────────────────────────
 const WS = [
@@ -666,40 +666,40 @@ slide('ws-entity', 'white', `
   const xs = [0, 3, 6, 12];
   const w = 1000, h = 560, pl = 90, pr = 230, pt = 40, pb = 80;
   const x = m => pl + m / 12 * (w - pl - pr), y = v => pt + (h - pt - pb) * (1 - v / 100);
-  const target = [7, 35, 60, 85];
+  const target = [0, 15, 30, 45];
 
-  const svg = `<svg class="chart" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="Rayamp Solar target path">
+  const svg = `<svg class="chart" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="Melbourne East target path">
     ${[0, 25, 50, 75, 100].map(t => `<line x1="${pl}" x2="${w - pr}" y1="${y(t)}" y2="${y(t)}" class="gl"/><text x="${pl - 16}" y="${y(t) + 8}" class="ax" text-anchor="end">${t}%</text>`).join('')}
     ${xs.map((m, i) => `<text x="${x(m)}" y="${h - pb + 42}" class="ax" text-anchor="middle">${labels[i]}</text>`).join('')}
-    <line x1="${x(0)}" x2="${x(12)}" y1="${y(55)}" y2="${y(55)}" stroke="#0F172A" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round" class="fadein"/>
-    <text x="${x(12) + 22}" y="${y(55) + 38}" class="el">RACV Solar today <tspan class="elv">55%</tspan></text>
+    <line x1="${x(0)}" x2="${x(12)}" y1="${y(34)}" y2="${y(34)}" stroke="#0F172A" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round" class="fadein"/>
+    <text x="${x(12) + 22}" y="${y(34) + 38}" class="el">Green Line Solar today <tspan class="elv">34%</tspan></text>
     <path d="${target.map((v, i) => `${i ? 'L' : 'M'}${x(xs[i])},${y(v)}`).join('')}" pathLength="1" class="draw" fill="none" stroke="#FF5A39" stroke-width="6" stroke-dasharray="1" style="--d:300ms"/>
     <path d="${target.map((v, i) => `${i ? 'L' : 'M'}${x(xs[i])},${y(v)}`).join('')}" fill="none" stroke="#F8FAFC" stroke-width="7" stroke-dasharray="14 12" class="fadein" style="--d:1500ms"/>
     ${target.map((v, i) => `<circle cx="${x(xs[i])}" cy="${y(v)}" r="${i ? 10 : 13}" fill="${i ? '#F8FAFC' : '#FF5A39'}" stroke="#FF5A39" stroke-width="5" class="pop" style="--d:${400 + i * 350}ms"/><text x="${i ? x(xs[i]) : x(xs[i]) + 26}" y="${i ? y(v) - 28 : y(v) + 44}" text-anchor="${i ? 'middle' : 'start'}" class="callsmall pulp">${i === 3 ? '' : v + '%'}${i ? '' : ' measured today'}</text>`).join('')}
-    <text x="${x(12) + 22}" y="${y(85) - 4}" class="el pulp-t">Rayamp Solar Target <tspan class="elv">85%</tspan></text>
+    <text x="${x(12) + 22}" y="${y(45) - 4}" class="el pulp-t">Rayamp target <tspan class="elv">45%</tspan></text>
   </svg>`;
 
   const TG = [
-    ['Melbourne East (Battery Hub)', '7% · #8', '40% · Top 3', '80% · #1'],
-    ['Melbourne West (New Builds)', '0% · Unranked', '35% · Top 5', '70% · Top 3'],
-    ['Geelong & Coastal', '0% · Unranked', '30% · Top 3', '65% · Top 2'],
-    ['Mornington Peninsula', '0% · Unranked', '35% · Top 3', '70% · #1'],
-    ['Ballarat & Central', '0% · Unranked', '25% · Top 5', '50% · Top 3'],
-    ['Bendigo & Goldfields', '0% · Unranked', '30% · Top 3', '60% · #2'],
-    ['Gippsland & Latrobe', '0% · Unranked', '20% · Top 5', '45% · Top 3'],
-    ['Victoria Statewide', '4.2% · #12', '35% · Top 3', '85% · #1 Overall']
+    ['Melbourne East', '0% · #11', '15% · Top 10', '30% · Top 5'],
+    ['Mornington Peninsula', '0% · #9', '15% · Top 10', '25% · Top 5'],
+    ['Geelong & Surf Coast', '0% · #10', '15% · Top 10', '25% · Top 5'],
+    ['Melbourne West', '0% · #12', '10% · Top 10', '20% · Top 5'],
+    ['Ballarat & Central', '0% · #8', '10% · Top 10', '20% · Top 5'],
+    ['Bendigo & Goldfields', '0% · #8', '10% · Top 10', '20% · Top 5'],
+    ['Gippsland & Latrobe', '0% · #9', '10% · Top 10', '20% · Top 5'],
+    ['Statewide Average', '0% · #11', '12% · Top 10', '25% · Top 5']
   ];
 
   slide('targets', 'light', `
-    <header class="hd"><p class="eyebrow">Proposed Commercial Targets</p><h2 class="h1">The Goal: Become the #1 Recommended Residential Installer in Victoria</h2></header>
+    <header class="hd"><p class="eyebrow">Proposed Targets</p><h2 class="h1">The goal: overtake Green Line Solar in Melbourne East within 12 months</h2></header>
     <div class="cols-60">
-      <div class="panel"><p class="chart-title">Share of AI answers recommending Rayamp Solar over 12 months</p>${svg}</div>
+      <div class="panel"><p class="chart-title">Melbourne East: share of AI answers recommending Rayamp Solar. Today's figure is measured; the dashed path is the target.</p>${svg}</div>
       <div>
         <table class="tg-table">
-          <thead><tr><th>Corridor</th><th>Today</th><th>90 Days</th><th>6 Months</th></tr></thead>
+          <thead><tr><th>Corridor</th><th>Today</th><th>90 days</th><th>6 months</th></tr></thead>
           <tbody>${TG.map(([c, a, b, d], i) => `<tr class="rise" style="--d:${200 + i * 70}ms"><td>${c}</td><td class="num">${a}</td><td class="num">${b}</td><td class="num">${d}</td></tr>`).join('')}</tbody>
         </table>
-        <p class="note">Targets measured against the identical ${TOTAL_ANSWERS}-prompt benchmark panel monthly to ensure statistical integrity.</p>
+        <p class="note">Targets are measured on the same ${TOTAL_ANSWERS}-prompt panel each month, so every movement is like for like.</p>
       </div>
     </div>`);
 }
@@ -725,16 +725,17 @@ slide('governance', 'white', `
     </div>
   </div>`);
 
-// ─── 24. Final Call to Action ───────────────────────────────────────────────
-slide('cta', 'dark cta', `
+// ─── 24. Next Steps / Close ─────────────────────────────────────────────────
+slide('close', 'dark close', `
   <div class="cover-bg" aria-hidden="true"></div>
-  <div class="cta-logo rise" style="--d:0ms">${logo()}</div>
-  <div class="cta-main">
-    <p class="eyebrow on-dark rise" style="--d:100ms">Next Steps</p>
-    <h2 class="display on-dark rise" style="--d:180ms">Ready to cement Rayamp Solar as Victoria’s most recommended solar & battery installer?</h2>
-    <p class="lede on-dark rise" style="--d:300ms">We are ready to execute Month 1 directory integration, local review acceleration, and battery solution architecture immediately.</p>
-  </div>
-  <footer class="foot on-dark"><span class="foot-logo">${logo()}</span><span>Prepared for Rayamp Solar Pty Ltd · Melbourne, Victoria</span></footer>`, { dark: true, noFoot: true });
+  <p class="eyebrow on-dark rise" style="--d:0ms">Next steps</p>
+  <h2 class="display rise" style="--d:120ms">Start with Melbourne East. Measure every month.</h2>
+  <ol class="next rise" style="--d:300ms">
+    <li><span>1</span><p><b>Agree the targets</b> and the order of Victorian corridors after Melbourne East.</p></li>
+    <li><span>2</span><p><b>Share access</b> to Google Business Profile, website CMS, and accreditation portals.</p></li>
+    <li><span>3</span><p><b>First re-measure in November 2026</b>, on the same ${TOTAL_ANSWERS}-prompt evaluation panel.</p></li>
+  </ol>
+  <div class="close-logo">${logo()}<span class="byline">Prepared for Rayamp Solar Pty Ltd · Melbourne, Victoria</span></div>`, { dark: true, noFoot: true });
 
 // ─── Assemble HTML ──────────────────────────────────────────────────────────
 const CSS = fs.readFileSync(path.join(pipelineDir, 'deck.css'), 'utf8');
